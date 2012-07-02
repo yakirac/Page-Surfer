@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="ps.database.Word" table="WORD">
+		<meta attribute="class-description"> This class contains 
+			word details.
+		</meta>
+		<id name="wordId" type="long" column="WORD_ID">
+			<generator class="native"/>
+		</id>
+		<property name="wordName" type="string" length="4000" 
+			not-null="true" column="WORD_NAME" />
+		<set name="sites" table="WORD_SITES" cascade="all">
+			<key column="WORD_ID" />
+			<many-to-many column="SITE_ID" class="ps.database.Site"/>
+		</set>
+	</class>
+</hibernate-mapping> 

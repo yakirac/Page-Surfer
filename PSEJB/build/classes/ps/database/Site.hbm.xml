@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="ps.database.Site" table="SITE">
+		<meta attribute="class-description"> This class contains 
+			site details.
+		</meta>
+		<id name="siteId" type="long" column="SITE_ID">
+			<generator class="native"/>
+		</id>
+		<property name="siteURL" type="string"
+			not-null="true" column="SITE_URL" length="100000"/>
+		<property name="siteTitle" type="string"
+			not-null="true" column="SITE_TITLE" length="100000"/>
+		<property name="siteDescription" type="string" 
+			not-null="true" column="SITE_DESCRIPTION" length="100000"/>
+		<property name="siteKeywords" type="string" 
+			not-null="true" column="SITE_KEYWORDS" length="100000"/>
+		<property name="wordFreq" type="integer" 
+			not-null="true" column="WORD_FREQ" />
+	</class>
+</hibernate-mapping>

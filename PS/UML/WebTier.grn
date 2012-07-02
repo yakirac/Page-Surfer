@@ -1,0 +1,28 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=PSWeb/src<ps.web{PageSurferAction.java[PageSurferAction"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="346"/>
+      <y="13"/>
+   </type>
+   <type>
+      <name="=PSWeb/src<ps.web{PageSurferForm.java[PageSurferForm"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="25"/>
+      <y="13"/>
+   </type>
+   <note>
+      <text="Other components include:
+index.jsp
+struts-config.xml
+web.xml"/>
+      <height="50"/>
+      <width="150"/>
+      <x="347"/>
+      <y="107"/>
+   </note>
+</uml>
+

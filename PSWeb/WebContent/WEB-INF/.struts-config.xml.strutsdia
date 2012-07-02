@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="StrutsProcess">
+ <PROCESS-ITEM ID="#PageSurferAction" NAME="action0"
+  PATH="/PageSurferAction" SHAPE="32,17,0,0" TITLE="PageSurferForm"
+  TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="success" NAME="forward0" PATH="/index.jsp"
+   TARGET="page0" TITLE="success" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page0" PATH="/index.jsp" SHAPE="240,17,0,0"
+  SUBTYPE="jsp" TITLE="index.jsp" TYPE="page" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT NAME="link0" PATH="/PageSurferAction.do"
+   SUBTYPE="confirmed" TARGET="action0" TITLE="/PageSurferAction.do"
+   TYPE="link" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+</PROCESS>

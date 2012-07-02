@@ -1,0 +1,46 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=PSEJB/ejbModule<ps.ejb{PagesSearch.java[PagesSearch"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="42"/>
+      <y="1"/>
+   </type>
+   <type>
+      <name="=PSEJB/ejbModule<ps.ejb{PagesSearchBean.java[PagesSearchBean"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="45"/>
+      <y="165"/>
+   </type>
+   <type>
+      <name="=PSEJB/ejbModule<ps.ejb{PageSurferData.java[PageSurferData"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="400"/>
+      <y="0"/>
+   </type>
+   <type>
+      <name="=PSEJB/ejbModule<ps.ejb{PageSurferDataBean.java[PageSurferDataBean"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="403"/>
+      <y="162"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.realization.RealizationPart"/>
+      <sourceType="=PSEJB/ejbModule<ps.ejb{PagesSearchBean.java[PagesSearchBean"/>
+      <targetType="=PSEJB/ejbModule<ps.ejb{PagesSearch.java[PagesSearch"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.realization.RealizationPart"/>
+      <sourceType="=PSEJB/ejbModule<ps.ejb{PageSurferDataBean.java[PageSurferDataBean"/>
+      <targetType="=PSEJB/ejbModule<ps.ejb{PageSurferData.java[PageSurferData"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+

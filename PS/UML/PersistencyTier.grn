@@ -1,0 +1,49 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=PSEJB/ejbModule<ps.database{CompareSites.java[CompareSites"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="103"/>
+      <y="22"/>
+   </type>
+   <type>
+      <name="=PSEJB/ejbModule<ps.database{Site.java[Site"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="14"/>
+      <y="137"/>
+   </type>
+   <type>
+      <name="=PSEJB/ejbModule<ps.database{Word.java[Word"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="480"/>
+      <y="211"/>
+   </type>
+   <type>
+      <name="=PSEJB/ejbModule<ps.util{HibernateUtil.java[HibernateUtil"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="479"/>
+      <y="100"/>
+   </type>
+   <note>
+      <text="Other components include:
+hibernate.cfg.xml
+Site.hbm.xml
+Word.hbm.xml"/>
+      <height="50"/>
+      <width="150"/>
+      <x="497"/>
+      <y="25"/>
+   </note>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.association.AssociationPart"/>
+      <sourceType="=PSEJB/ejbModule<ps.database{Word.java[Word"/>
+      <targetType="=PSEJB/ejbModule<ps.database{Site.java[Site"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+

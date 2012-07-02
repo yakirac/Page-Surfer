@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+                               "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+<struts-config>
+ <data-sources/>
+ <form-beans>
+ 	<form-bean name="PageSurferForm" type="ps.web.PageSurferForm"></form-bean>
+ </form-beans>
+ <global-exceptions/>
+ <global-forwards>
+ 	<forward name="success" path="/index.jsp"/>
+ </global-forwards>
+ <action-mappings>
+ 	<action input="/index.jsp" name="PageSurferForm" path="/PageSurferAction" 
+ 	scope="request" type="ps.web.PageSurferAction">
+ 		<!--<forward name="success" path="/index.jsp"/>-->
+ 	</action>
+ </action-mappings>
+ <controller/>
+</struts-config>
